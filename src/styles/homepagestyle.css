@@ -1,0 +1,274 @@
+.postColumOne {
+  margin-left: 20%;
+  margin-top: 60px;
+}
+
+.containWrap {
+  background-color: #fafafa;
+}
+
+.postRow {
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.postContainer {
+  flex-wrap: wrap;
+  padding-top: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 470px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+}
+
+.uploaderProfile {
+  margin-left: 2%;
+  padding-bottom: 5px;
+  display: flex;
+}
+
+.userName {
+  font-size: 14px;
+  padding-left: 8px;
+  padding-top: 4px;
+  font-weight: 600;
+}
+
+.optionMenu {
+  cursor: pointer;
+  padding-bottom: 24px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin-left: 68%;
+}
+
+.postCrausel {
+  height: 470px;
+  width: 467px;
+}
+
+.likeComment {
+  display: flex;
+}
+
+.likeCount {
+  margin-top: 5px;
+  margin-left: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.postDescription {
+  margin-top: 5px;
+  margin-left: 8px;
+  display: flex;
+  text-align: left;
+}
+
+.uploadDetails {
+  font-size: 14px;
+}
+
+.uploaderName {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: lowercase;
+}
+
+.postHeader {
+  margin-top: 5px;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.viewDetails {
+  padding-bottom: 10px;
+  margin-top: 5px;
+  margin-left: 4px;
+  text-decoration: none;
+  color: #989898;
+  font-size: 14px;
+  text-align: left;
+}
+
+.leafButton {
+  fill: black;
+}
+
+.viewDetails:hover {
+  cursor: pointer;
+  color: #989898;
+}
+
+.makeComment {
+  display: flex;
+}
+
+.commentSection {
+  margin-left: -30px;
+  padding-bottom: 16px;
+}
+
+.comment-input-element {
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  background-color: #f0f2f5;
+  margin-left: 16px;
+  padding-left: 13px;
+  width: 390px;
+}
+
+.comment-input-element:focus {
+  outline: none !important;
+  box-sizing: border-box;
+}
+
+.comments-container {
+  padding-left: 0px;
+  margin-left: -10px;
+}
+
+.comments {
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-top: 16px;
+  justify-content: left;
+}
+
+.comments > li {
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.comment-element {
+  display: flex;
+}
+
+.comment-text-container {
+  line-height: 1.3333;
+  border-radius: 20px;
+  width: 380px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-right: 12px;
+  padding-left: 12px;
+  background-color: #f0f2f5;
+  text-align: start;
+  margin-left: 16px;
+  font-size: 0.9375rem;
+}
+
+.commentorName {
+  font-weight: 600;
+  font-size: 0.8125rem;
+}
+
+@media (max-width: 1000px) {
+  .postColumnTwo {
+    display: none;
+  }
+
+  .postColumOne {
+    margin-left: 0;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 432px) {
+  .postColumnTwo {
+    display: none;
+  }
+
+  .postColumOne {
+    overflow: hidden;
+    margin-left: 0;
+    margin-top: 60px;
+  }
+
+  .postContainer {
+    flex-wrap: wrap;
+    padding-top: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+  }
+
+  .optionMenu {
+    padding-bottom: 24px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-left: 60%;
+  }
+
+  .postCrausel {
+    height: 100%;
+    width: 100%;
+  }
+
+  .viewDetails {
+    padding-bottom: 4%;
+    margin-top: 5px;
+    margin-left: 4px;
+    text-decoration: none;
+    color: #989898;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .commentSection {
+    margin-left: -30px;
+    padding-bottom: 16px;
+  }
+
+  .comment-input-element {
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f0f2f5;
+    margin-left: 16px;
+    padding-left: 13px;
+    width: 19rem;
+  }
+}
+
+.postColumnTwo {
+  margin-bottom: 1230px;
+  margin-right: 18%;
+}
+
+.friendsProfile {
+  display: flex;
+}
+
+.profilePhoto {
+  margin-right: 20px;
+}
+
+.realUserName {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.profileUserText {
+  font-weight: 600;
+}
+
+.profileRealText {
+  color: #989898;
+}
+
+.exitText {
+  margin-left: 150px;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #55b7f7;
+  font-weight: 700;
+}

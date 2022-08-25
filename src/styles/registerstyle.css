@@ -1,0 +1,184 @@
+.headerContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.closebtn {
+  text-decoration: none;
+  font-size: 30px;
+  color: gray;
+  margin-top: 5px;
+  margin-right: 20px;
+  display: none;
+}
+
+.registerHeader {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.registerContainer {
+  background-color: white;
+  color: black;
+  font-family: "Arial";
+  position: absolute;
+  border-radius: 5px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+  padding-right: 0px;
+  z-index: 10;
+}
+
+.registerElementContainer {
+  padding-left: 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.registerInput:focus {
+  outline: none !important;
+  border-color: lightgrey;
+}
+
+.registerInput {
+  margin-right: 8px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding-left: 20px;
+  height: 40px;
+  background-color: #f5f6f7;
+}
+
+.registerEmail {
+  margin-right: 8px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding-left: 20px;
+  height: 40px;
+  width: 200px;
+  background-color: #f5f6f7;
+  width: 445px;
+}
+
+.registerDate {
+  margin-right: 8px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding-left: 20px;
+  height: 40px;
+  width: 200px;
+  background-color: #f5f6f7;
+  width: 445px;
+}
+
+.registerEmail:focus {
+  outline: none !important;
+  border-color: lightgrey;
+}
+
+.registerBttnContainer {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.doneRegisterBtton {
+  background-color: rgb(32, 144, 32);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 150px;
+}
+
+.registerGenderContainer {
+  display: flex;
+  margin-left: 175px;
+  margin-bottom: 10px;
+}
+
+.radioGenderFemale {
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .registerContainer {
+    width: 350px;
+    height: 510px;
+    background-color: white;
+    color: black;
+    font-family: "Arial";
+    position: absolute;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    padding-right: 0px;
+    z-index: 10;
+  }
+
+  .registerEmail {
+    margin-right: 9px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 42px;
+    width: 40px;
+    background-color: #f5f6f7;
+    width: 216px;
+  }
+
+  .registerDate {
+    margin-right: 9px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding-left: 5px;
+    height: 42px;
+    width: 40px;
+    background-color: #f5f6f7;
+    width: 216px;
+  }
+
+  .registerElementContainer {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-right: 10px;
+  }
+
+  .registerInput {
+    margin-right: 8px;
+    margin-top: 2px;
+    border: 1px solid lightgrey;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    padding-left: 20px;
+    height: 40px;
+    background-color: #f5f6f7;
+  }
+
+  .headerContainer {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .registerGenderContainer {
+    display: flex;
+    margin-left: 110px;
+    margin-bottom: 10px;
+  }
+
+  .radioGenderFemale {
+    margin-left: 20px;
+  }
+}

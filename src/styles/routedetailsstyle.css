@@ -1,0 +1,92 @@
+.routeKind {
+  color: #879ead;
+  font-size: 20px;
+}
+
+.resim {
+  height: 1400px;
+}
+
+.routeHeader {
+  color: #1d4159;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.aboutHeader {
+  color: #879ead;
+  font-weight: bold;
+}
+
+.aboutDescription {
+  color: #1d4159;
+}
+
+.ratingHeader {
+  color: #879ead;
+  font-weight: bold;
+}
+
+.routeRate {
+  color: #1d4159;
+  font-size: 2.8em;
+  margin-left: 2.7em;
+}
+
+.howManyRated {
+  margin-left: 8em;
+  padding-bottom: 1em;
+}
+
+.starRate {
+  margin-right: 2em;
+  margin-top: 0.5em;
+  padding-bottom: 1em;
+}
+
+.commentBox {
+  width: 33em;
+}
+
+.comments {
+  margin-left: 4em;
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .routeRate {
+    color: #1d4159;
+    font-size: 2.8em;
+    margin-left: 1.2em;
+  }
+
+  .howManyRated {
+    margin-left: 2.8em;
+  }
+
+  .commentBox {
+    width: 20em;
+    padding-left: 1em;
+  }
+
+  .resim {
+    height: 200px;
+  }
+}
+
+.commentsHeader {
+  color: #879ead;
+  font-weight: bold;
+}
+
+.commentorAvatar {
+  margin-left: 2.4em;
+}
+
+.divider {
+  border: 0;
+  border-color: rgb(171, 168, 168) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  margin: 1em 0 0;
+  padding: 1em 0 0;
+}

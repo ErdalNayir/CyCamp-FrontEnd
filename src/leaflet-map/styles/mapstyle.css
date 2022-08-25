@@ -1,0 +1,24 @@
+.leaflet-control-layers-list {
+  width: 100%;
+  height: 7.5rem;
+  padding-top: 0px;
+}
+.leaflet-control-attribution {
+  display: none;
+}
+
+.leaflet-control-layers
+  > .leaflet-control-layers-list
+  > .leaflet-control-layers-base
+  > label
+  > span {
+  display: flex;
+}
+
+.my-div-id {
+  display: flex;
+}
+
+.leaflet-control-layers-overlays > label > span {
+  display: flex;
+}

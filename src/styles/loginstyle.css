@@ -1,0 +1,175 @@
+.loginText {
+  font-size: 64px;
+}
+
+.mainContainer {
+  color: black;
+  font-family: "Arial";
+  position: absolute;
+  padding: 3.5rem;
+  border-radius: 1rem;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: flex;
+}
+
+.hdrTitle {
+  color: #166fe5;
+  font-weight: bolder;
+  font-size: 56px;
+}
+
+.descriptionText {
+  font-size: 24px;
+  color: white;
+}
+
+.textContainer {
+  box-sizing: border-box;
+  margin-top: 72px;
+  margin-right: 72px;
+  display: inline-block;
+}
+
+.formContainer {
+  background-color: white;
+  border-radius: 10px;
+  font-family: "Arial";
+  margin-left: 60px;
+  padding-left: 25px;
+  padding-right: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inputEmail {
+  border: 1px solid lightgrey;
+  margin-top: 20px;
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+.inputEmail:focus {
+  outline: none !important;
+  border-color: rgb(32, 144, 32);
+}
+
+.inputPassword {
+  border: 1px solid lightgrey;
+  margin-top: 20px;
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+.inputPassword:focus {
+  outline: none !important;
+  border-color: rgb(32, 144, 32);
+}
+
+.loginButton {
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  color: white;
+  background-color: rgb(32, 144, 32);
+  border: none;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 350px;
+}
+
+.loginButton:active {
+  background-color: rgb(23, 96, 23);
+}
+
+.loginButton:hover {
+  background-color: rgb(30, 135, 30);
+}
+
+.divider {
+  margin-top: 0px;
+}
+
+.registerButton {
+  font-weight: bold;
+  margin-left: 80px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: white;
+  background-color: rgb(32, 144, 32);
+  border: none;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 200px;
+}
+
+.registerButton:active {
+  background-color: rgb(23, 96, 23);
+}
+
+.registerButton:hover {
+  background-color: rgb(30, 135, 30);
+}
+
+.forgetPassword {
+  color: rgb(32, 144, 32);
+  cursor: pointer;
+  margin-left: 110px;
+  text-decoration: none;
+}
+
+.forgetPassword:hover {
+  color: rgb(32, 144, 32);
+}
+
+@media only screen and (max-width: 900px) {
+  .mainContainer {
+    align-content: center;
+    text-align: center;
+    color: black;
+    font-family: "Arial";
+    position: fixed;
+    padding: 3.5rem;
+    padding-left: 0.25rem;
+    border-radius: 1rem;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 49%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .textContainer {
+    align-content: space-between;
+    justify-content: space-between;
+    margin-top: 72px;
+    margin-right: 0px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  .registerButton {
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: white;
+    background-color: rgb(32, 144, 32);
+    border: none;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 200px;
+  }
+  .forgetPassword {
+    margin-left: 15px;
+  }
+}
