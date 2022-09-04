@@ -5,6 +5,12 @@ I have created a website where you can share bike routes, walk routes and camp a
 
 ## What I have learned and used so far
 
+#### React
+
+* Functional and Class Components
+* React Hooks(useState, useEffect)
+
+
 
 
 
