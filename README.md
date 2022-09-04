@@ -8,10 +8,53 @@ I have created a website where you can share bike routes, walk routes and camp a
 #### React
 
 * Functional and Class Components
-* React Hooks(useState, useEffect)
+* React Hooks(useState, useEffect,useReducer,useNavigate)
+* Props
+* JSX
+* React-Leafet (map provider for web applications for react)
+* React-leaflet layers (for adding satellite and map display to map)
+* Fetch API 
+* Component(Creating custom components)
+* Context(I have searched this while I was creating that website)
+* Fragments
+* CSS Module
 
+#### CSS
 
+* @media tags
+* How to use " > " in my css file
+* @keyframes (for creating animations)
+* Flex, overflow, transition, z-index and so on 
 
+#### JS
+
+* Leaflet(map provider for web applications)
+* geoman-leaflet plugin(for modifying like creating polygons and polylines etc.)
+* leaflet easybutton (for creating our custom buttons to customize map)
+* leaflet fullscreen plugin (for displaying map in fullscreen)
+* Async and await
+
+#### Boostrap 5
+
+* Grid system of boostrap
+* Boostrap for react
+* I have improved my exsiting knowledge about boostrap 5
+
+#### MUI (Material UI)
+
+* Tabs
+* Avatar
+* IconButton
+* Icons
+* Text Field
+* Buttons
+* Crousel
+
+#### Other Technologies that I have learned
+
+* react-modals
+* postegre SQL (I have learned some basic things)
+* Web API (.Net Core)
 
 
 ## Known Issues and bugs.
