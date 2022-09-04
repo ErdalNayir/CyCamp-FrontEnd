@@ -56,6 +56,7 @@ I have created a website where you can share bike routes, walk routes and camp a
 * postegre SQL (I have learned some basic things)
 * Web API (.Net Core)
 * Animate on Scroll
+* react-counter and visibilty sensor
 
 
 ## Known Issues and bugs.
