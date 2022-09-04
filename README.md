@@ -65,4 +65,4 @@ On mobile phones, there are some error. Unfortunetly it is my first react experi
 
 
 
-#### [Website'ye gitmek için tıklayınız](https://6314e747063a091c48a88f3c--unique-kataifi-950851.netlify.app/)
+#### [Click here to go to website](https://6314e747063a091c48a88f3c--unique-kataifi-950851.netlify.app/)
