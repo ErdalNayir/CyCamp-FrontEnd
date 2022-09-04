@@ -48,7 +48,7 @@ I have created a website where you can share bike routes, walk routes and camp a
 * Icons
 * Text Field
 * Buttons
-* Crousel
+* Carousel
 
 #### Other Technologies that I have learned
 
