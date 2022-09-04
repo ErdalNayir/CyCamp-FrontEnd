@@ -55,6 +55,7 @@ I have created a website where you can share bike routes, walk routes and camp a
 * react-modals
 * postegre SQL (I have learned some basic things)
 * Web API (.Net Core)
+* Animate on Scroll
 
 
 ## Known Issues and bugs.
